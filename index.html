@@ -12,6 +12,8 @@
     <link rel="shortcut icon" href="img/logo.png">
     
     <title>Chleb</title>
+    
+    <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i,500,500i,600,600i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="plugins/bootstrap4/css/bootstrap.min.css">
@@ -24,55 +26,71 @@
     <link rel="stylesheet" href="plugins/chikery-icon/style.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+  
+  
   <body>
     <header class="header header--default header--home-4 line" data-sticky="true">
+      
+      <!-- Menu Esquerdo  -->
       <div class="header__left">
-        <ul class="ps-list--social">
-          <li><a href="#"></a></li>
+        <!--<ul class="ps-list--social">
+        <!--  <li><a href="#"></a></li>
           <li><a href="#"></a></li>
           <li><a href="#"></i></a></li>
           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        </ul>
+        </ul>-->
       </div>
       
+      
+      
+      <!-- Menu Central  -->
       <div class="header__center">
-        <nav class="header__navigation left">
+        <nav class="header__navigation left navigation">
           <ul class="menu">
-            <li class="menu-item-has-children"><a href="index.html">Home</a>
-            
-              
-            </li>
-            
-            <li class="current-menu-item "><a href="##">Sobre</a>
+            <li class="menu-item-has-children"><a href="#top">Home</a>
             </li>
           </ul>
         </nav>
         
         <div class="header__logo">
-        <a class="ps-logo" href="index.html"><img src="img/logo.png" alt=""></a>
+        <a class="ps-logo" href="#top"><img src="img/logo.png" alt=""></a>
         </div>
         
         <nav class="header__navigation right">
           <ul class="menu">
-            <li class="current-menu-item "><a href="##">Loja</a>
-            
-            <li class="current-menu-item "><a href="##">Contato</a>
+            <li class="menu-item-has-children"><a href="##">Nossa Loja</a>
             </li>
+            
           </ul>
         </nav>
       </div>
+      
+      <!-- FIM Menu Central  -->
+      
+      <!-- Menu Direito  -->
       <div class="header__right">
-            </div>
+      </div>
     </header>
+    
+    
     <header class="header header--mobile" data-sticky="false">
       <div class="header__content">
-        <div class="header__left"><a class="ps-toggle--sidebar" href="#navigation-mobile"><i class="fa fa-bars"></i></a></div>
-        <div class="header__center"><a class="ps-logo" href="#"><img src="img/logo.png" alt=""></a></div>
+        
+        <div class="header__left">
+          <a class="ps-toggle--sidebar" href="#navigation-mobile"><i class="fa fa-bars"></i></a>
+        </div>
+        
+        <div class="header__center">
+         <a class="ps-logo" href="#top"><img src="img/logo.png" alt=""></a>
+        </div>
+        
         <div class="header__right">
           <div class="header__actions"> </div>
         </div>
       </div>
     </header>
+    
+    <!-- Menu Lateral Mobile -->
     
     <div class="ps-panel--sidebar" id="navigation-mobile">
       <div class="ps-panel__header">
@@ -80,358 +98,461 @@
       </div>
       <div class="ps-panel__content">
         <ul class="menu--mobile">
-          <li class="menu-item-has-children"><a href="##">Home</a>
+          <li class="menu-item-has-children"><a href="#home">Home</a>
             
           </li>
           
-          <li class="current-menu-item "><a href="##">Sobre</a>
-          </li>
+         
           
-          <li class="current-menu-item "><a href="##">Loja</a>
+          <li class="current-menu-item "><a href="##">Nossa Loja</a>
           </li>
-          <li class="current-menu-item "><a href="##">Contato</a>
-          </li>
+          <!--<li class="current-menu-item "><a href="##">Contato</a></li>-->
+          
         </ul>
       </div>
     </div>
+    <!-- FIM Menu Lateral Mobile -->
     
-    <!--include search-sidebar-->
-    <div class="ps-hero ps-hero--shopping bg--cover" data-background="img/hero/shop-hero.png">
+    
+    <!-- Logo Mobile -->
+    <div class="navigation--list">
+      <div class="navigation__content">
+          <a class="e" href="#top">
+           
+          </a>
+          <a class="navigation__item ps-toggle--sidebar" href="#navigation-mobile">
+           <i class="fa fa-bars"></i>
+          </a>
+          <a class="" href="#top">
+           
+          </a>
+      </div>
+    </div>
+    <!-- FIM Logo Mobile -->
+    
+    <!-- Título Banner-->
+    <div class="ps-hero ps-hero--shopping bg--cover" data-background="img/hero/shop-hero.png" id="home">
       <div class="ps-hero__container">
         <div class="ps-breadcrumb">
           
         </div>
         <h1 class="ps-hero__heading" style="font-size: 125px; ">Chleb</h1>
+        <h3 style=" color: #ce873a; font-size: 43px;">Pães Rústicos & Artesanais</h3>
       </div>
     </div>
-    <div class="ps-page--shop" id="homepage-4">
-           
-           
-            <div class="container">
-            <div class="ps-section__header" style="    text-align: center;"><i class="chikery-tt5" style="
+    <!-- FIM Título Banner-->
+    
+    
+    <!-- Banner de Compra-->
+    <div id="homepage-1">
+    <div class="ps-section ps-home-about bg--cover" data-background="img/bg/home-about.jpg" style="background: url(&quot;img/bg/home-3/home-about.jpg&quot;);">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+              <div class="ps-section__image"><img src="img/bg/home-3/home-about.png" alt=""></div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+              <div class="ps-section__header">
+                <p style=" font-size: 46px;">Bem vindo!</p>
+                <h3>Clique aqui para comprar!</h3>
+              </div>
+              <div class="ps-section__content">
+                <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 12px 28px;">
+                 <p style=" color: #fff; font-size: 42px; margin-bottom: 2px; line-height: 1.0em;">COMPRAR</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     </div>
+     <!-- FIM Banner de Compra-->
+    
+    <!-- MENU LISTA -->
+    <div id="homepage-3">
+    
+    <!-- // LISTA PÃES DE FORMA // -->
+    <div class="ps-section ps-home-menu-of-day bg--cover" data-background="img/bg/home-3/ .jpg" style=" padding: 8px 0;">
+        <div class="container">
+          <div class="ps-section__container">
+            <!-- Título do Menu Lista -->
+            <div class="ps-section__header">
+              <i class="chikery-tt5" style="
                     display: inline-block;
                     margin-bottom: 10px;
                     font-size: 36px;
-                    text-align: center;
-                "></i>
-                            <p style="
-                    margin-bottom: 0;
-                    color: #ce873a;
-                    text-transform: uppercase;
-                    text-align: center;
-                ">Confira nosso Pães</p>
-                            <h3 style="
-                    margin-bottom: 20px;
-                    font-size: 36px;
-                    font-weight: 700;
-                    color: #000;
-                    text-align: center;
-                ">Nossos Produtos</h3>
-                          </div>
-                            </div>
-            
-      
-      
-      <div class="container-fluid">
-      
-      
-      
-      
-      
-      
-        <div class="ps-shopping ps-shopping--no-sidebar">
-          
-          <div class="ps-product-box five-column">
-            <div class="row">
-              
-              <!--  PRODUTOS  -->
-              
-              
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/1.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/2.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/3.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/4.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/1.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/2.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/3.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/4.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/1.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/2.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/3.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 ">
-                <div class="ps-product">
-                  <div class="ps-product__thumbnail">
-                      <img src="img/product/4.png" alt=""/>
-                      <a class="ps-product__overlay" href="##"></a>
-                  </div>
-                  <div class="ps-product__content">
-                    <div class="ps-product__desc">
-                     <a class="ps-product__title" href="##">Pão Modelo </a>
-                      <span class="ps-product__price">R$ 00,00</span>
-                    </div>
-                    
-                    <div class="ps-product__shopping" style="    text-align: center;">
-                    <a class="ps-btn ps-product__add-to-cart" href="##">Comprar</a>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              
-              <!-- FIM PRODUTOS -->
-              
+                    text-align: center; ">
+              </i>      
+             
+              <p>CONFIRA NOSSO PÃES</p>
+              <h3 style="color: #000000;">Pães de Forma</h3><i class="chikery-tt1"></i>
             </div>
+            <!-- FIM Título do Menu Lista -->
+            
+            
+            <!-- Lista dos Pães -->
+            <div class="ps-section__content">
+              <div class="ps-block--product-menu ps-tab-root">
+                <div class="ps-tabs">
+                  <div class="ps-tab active" id="tab-menu-1">
+                    <div class="row">
+                      
+                     <!-- 1º Menu Lista --> 
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                        
+                            <div class="ps-product--horizontal">
+                              <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="##"></a>
+                                <img src="img/product/3.png" alt=""/>
+                              </div>
+                              <div class="ps-product__container">
+                                <div class="ps-product__content">
+                                  <a class="ps-product__title" href="product-default.html">Pão de Forma</a><br /><br />
+                                  <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                                  
+                                </div>
+                                
+                                <div class="ps-product__price"><span>R$0.00</span></div>
+                              </div>
+                             </div>
+                        
+                            <div class="ps-product--horizontal">
+                              <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="##"></a>
+                                <img src="img/product/3.png" alt=""/>
+                              </div>
+                              <div class="ps-product__container">
+                                <div class="ps-product__content">
+                                  <a class="ps-product__title" href="product-default.html">Pão de Forma</a><br /><br />
+                                  <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                                  
+                                </div>
+                                
+                                <div class="ps-product__price"><span>R$0.00</span></div>
+                              </div>
+                             </div>
+                        
+                            <div class="ps-product--horizontal">
+                              <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="##"></a>
+                                <img src="img/product/3.png" alt=""/>
+                              </div>
+                              <div class="ps-product__container">
+                                <div class="ps-product__content">
+                                  <a class="ps-product__title" href="product-default.html">Pão de Forma</a><br /><br />
+                                  <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                                  
+                                </div>
+                                
+                                <div class="ps-product__price"><span>R$0.00</span></div>
+                              </div>
+                             </div>
+                      </div>
+                      <!-- FIM 1º Menu Lista -->
+                      
+                      <!-- 2º Menu Lista -->
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                        
+                            <div class="ps-product--horizontal">
+                              <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="##"></a>
+                                <img src="img/product/3.png" alt=""/>
+                              </div>
+                              <div class="ps-product__container">
+                                <div class="ps-product__content">
+                                  <a class="ps-product__title" href="product-default.html">Pão de Forma</a><br /><br />
+                                  <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                                  
+                                </div>
+                                
+                                <div class="ps-product__price"><span>R$0.00</span></div>
+                              </div>
+                            </div>
+                        
+                            <div class="ps-product--horizontal">
+                              <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="##"></a>
+                                <img src="img/product/3.png" alt=""/>
+                              </div>
+                              <div class="ps-product__container">
+                                <div class="ps-product__content">
+                                  <a class="ps-product__title" href="product-default.html">Pão de Forma</a><br /><br />
+                                  <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                                  
+                                </div>
+                                
+                                <div class="ps-product__price"><span>R$0.00</span></div>
+                              </div>
+                            </div>
+                        
+                            <div class="ps-product--horizontal">
+                              <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="##"></a>
+                                <img src="img/product/3.png" alt=""/>
+                              </div>
+                              <div class="ps-product__container">
+                                <div class="ps-product__content">
+                                  <a class="ps-product__title" href="product-default.html">Pão de Forma</a><br /><br />
+                                  <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                                  
+                                </div>
+                                
+                                <div class="ps-product__price"><span>R$0.00</span></div>
+                              </div>
+                            </div>
+                      </div>
+                      <!-- FIM 2º Menu Lista -->
+                      
+                    </div>
+                  </div>
+                  
+                  
+                
+                </div>
+              </div>
+            </div>
+            <!-- FIM Lista dos Pães -->
+            
+            
+            
+            
           </div>
-          
         </div>
       </div>
+     <!-- // FIM LISTA PÃES DE FORMA // -->
+        
+        
+     <!-- // LISTA PÃES DE RÚSTICO // -->   
+        <div class="ps-section ps-home-menu-of-day bg--cover" data-background="img/bg/home-3/ .jpg" style=" padding: 8px 0;">
+        <div class="container">
+          <div class="ps-section__container">
+            <div class="ps-section__header">
+              <i class="chikery-tt5" style="
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    font-size: 36px;
+                    text-align: center; ">
+                    
+            </i>
+            
+            
+              <p>CONFIRA NOSSO PÃES</p>
+              <h3 style="color: #000000;">Pães de Rústicos</h3><i class="chikery-tt1"></i>
+            </div>
+            
+            
+            <div class="ps-section__content">
+              <div class="ps-block--product-menu ps-tab-root">
+                
+                <div class="ps-tabs">
+                  
+                  
+                  <div class="ps-tab active" id="tab-menu-1">
+                    <div class="row">
+                      
+                      
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                        
+                        <div class="ps-product--horizontal">
+                          <div class="ps-product__thumbnail">
+                            <a class="ps-product__overlay" href="##"></a>
+                            <img src="img/product/3.png" alt=""/>
+                          </div>
+                          <div class="ps-product__container">
+                            <div class="ps-product__content">
+                              <a class="ps-product__title" href="product-default.html">Pão de Rústico</a><br /><br />
+                              <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                              
+                            </div>
+                            
+                            <div class="ps-product__price"><span>R$0.00</span></div>
+                          </div>
+                        </div>
+                        
+                        <div class="ps-product--horizontal">
+                          <div class="ps-product__thumbnail">
+                            <a class="ps-product__overlay" href="##"></a>
+                            <img src="img/product/3.png" alt=""/>
+                          </div>
+                          <div class="ps-product__container">
+                            <div class="ps-product__content">
+                              <a class="ps-product__title" href="product-default.html">Pão de Rústico</a><br /><br />
+                              <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                              
+                            </div>
+                            
+                            <div class="ps-product__price"><span>R$0.00</span></div>
+                          </div>
+                        </div>
+                        
+                        <div class="ps-product--horizontal">
+                          <div class="ps-product__thumbnail">
+                            <a class="ps-product__overlay" href="##"></a>
+                            <img src="img/product/3.png" alt=""/>
+                          </div>
+                          <div class="ps-product__container">
+                            <div class="ps-product__content">
+                              <a class="ps-product__title" href="product-default.html">Pão de Rústico</a><br /><br />
+                              <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                              
+                            </div>
+                            
+                            <div class="ps-product__price"><span>R$0.00</span></div>
+                          </div>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                      
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                        
+                        <div class="ps-product--horizontal">
+                          <div class="ps-product__thumbnail">
+                            <a class="ps-product__overlay" href="##"></a>
+                            <img src="img/product/3.png" alt=""/>
+                          </div>
+                          <div class="ps-product__container">
+                            <div class="ps-product__content">
+                              <a class="ps-product__title" href="product-default.html">Pão de Rústico</a><br /><br />
+                              <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                              
+                            </div>
+                            
+                            <div class="ps-product__price"><span>R$0.00</span></div>
+                          </div>
+                        </div>
+                        
+                        <div class="ps-product--horizontal">
+                          <div class="ps-product__thumbnail">
+                            <a class="ps-product__overlay" href="##"></a>
+                            <img src="img/product/3.png" alt=""/>
+                          </div>
+                          <div class="ps-product__container">
+                            <div class="ps-product__content">
+                              <a class="ps-product__title" href="product-default.html">Pão de Rústico</a><br /><br />
+                              <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                              
+                            </div>
+                            
+                            <div class="ps-product__price"><span>R$0.00</span></div>
+                          </div>
+                        </div>
+                        
+                        <div class="ps-product--horizontal">
+                          <div class="ps-product__thumbnail">
+                            <a class="ps-product__overlay" href="##"></a>
+                            <img src="img/product/3.png" alt=""/>
+                          </div>
+                          <div class="ps-product__container">
+                            <div class="ps-product__content">
+                              <a class="ps-product__title" href="product-default.html">Pão de Rústico</a><br /><br />
+                              <a class="ps-btn ps-product__add-to-cart" href="##" style=" padding: 4px 12px;">Comprar</a>
+                              
+                            </div>
+                            
+                            <div class="ps-product__price"><span>R$0.00</span></div>
+                          </div>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  
+                  
+                
+                </div>
+              </div>
+            </div>
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- // FIM LISTA PÃES DE RÚSTICO // -->  
+        
+        
+    
+    
     </div>
+    <!-- FIM MENU LISTA -->
     
-   
-    
-    
-    
-    
+    <!-- // Rodapé // -->
     <div class="ps-footer--2 bg--cover" data-background="img/bg/footer-2.jpg" style="background: url(&quot;img/bg/footer-2.jpg&quot;);">
       <div class="container">
         <div class="ps-site-info">
-        <a class="ps-logo" href="index.html">
-        <img src="img/logo.png" alt="">
-        </a>
+         <a class="ps-logo" href="#top">
+          <img src="img/logo.png" alt="" style=" height: 90px;"/>
+         </a>
           <!--<p>004 Riley Street, Surry Hills 2050 Sydney, Australia</p>
           <p>Email:<a href="#"> info@nouthemes.com</a></p>
           <p>Phone:<span class="ps-hightlight"> +455 45 454555</span></p>-->
         </div>
+        
+        <!-- copyright -->
         <div class="ps-footer__bottom">
           <div class="container">
             
             <p style=" font-size: 19px;">© 2020 Todos os direitos reservados</p>
           </div>
         </div>
+        <!-- FIM copyright -->
       </div>
     </div>
+    <!-- // FIM Rodapé // -->
     
     
     
-    <div id="back2top"><i class="pe-7s-angle-up"></i></div>
-    <div class="ps-site-overlay"></div>
-    <div id="loader-wrapper">
-      <div class="loader-section section-left"></div>
-      <div class="loader-section section-right"></div>
-    </div>
-    <div class="ps-search" id="site-search"><a class="ps-btn--close" href="#"></a>
-      <div class="ps-search__content">
-        <form class="ps-form--primary-search" action="do_action" method="post">
-          <input class="form-control" type="text" placeholder="Search for...">
-          <button><i class="fa fa-search"></i></button>
-        </form>
-      </div>
-    </div>
-    <!-- Plugins-->
+    
+    
+    <!-- Whats -->
+        <script type="text/javascript">
+        (function () {
+        var options = {
+        whatsapp: "+5551999757831", // WhatsApp numero
+        call_to_action: "Posso ajudar?", // Mensagem
+        position: "left", // Posição 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+
+        $(function(){
+              $('#myModal').modal('show');
+        });
+
+       
+        </script>
+    
+    
+    <!-- Botão de Scroll To Top -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML: ' <img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow201.png" style="position: fixed;bottom: 60px;right: 35px;opacity: 1;cursor: pointer;" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();
+    jQuery(document).ready(function($){ 
+    if (localStorage.getItem('advertOnce') !== 'true') {
+    $('body').append('<div id="advert-once" style="position:fixed; bottom: 40px; left: 20px;"><a href="" target="_blank" rel="nofollow"></a><div class="advert-button"></div></div>')
+    localStorage.setItem('advertOnce','true');
+    } 
+    $('#advert-once .advert-button').on('click',function(){
+    $('#advert-once').hide();
+    }); 
+    });
+    </script>
+    <!-- FIM Botão de Scroll To Top -->
+
+    
+    
+    
+    <!-- Plugins JS-->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="plugins/jquery-1.12.4.min.js"></script>
     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
     <script src="plugins/bootstrap4/js/bootstrap.min.js"></script>
@@ -448,8 +569,9 @@
     <script src="plugins/jquery.slimscroll.min.js"></script>
     <script src="plugins/select2/dist/js/select2.full.min.js"></script>
     <script src="plugins/gmap3.min.js"></script>
+    
     <!-- Custom scripts-->
     <script src="js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxflHHc5FlDVI-J71pO7hM1QJNW1dRp4U&amp;region=GB"></script>
+    
   </body>
 </html>
